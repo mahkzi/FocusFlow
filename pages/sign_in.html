@@ -3,40 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signin</title>
+    <title>Sign_In | FocusFlow</title>
 </head>
 <body>
-    <div>
-        <div>
-            <div><a href="../Index.html"><img src="" alt="">Logo al inicio</a></div>
-            <div><h3><em>Tu espacio de trabajo y orden.</em></h3></div>
-        </div>
-        <div>
+    <header>
+        <section>
             <div>
+                <a href="../index.html">FocusFlow</a>
+            </div>
+
+            <div>
+                <h1>Accedé a tu cuenta</h1>
+                <h3><em>Tu espacio de trabajo y organización personal</em></h3>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+             <div>
                 <form action="" method="get">
-                    <label for="username">Username:</label><br>
-                    <input type="text" id="username" name="username" required placeholder="Enter your username"><br>
-                    <label for="password">Password:</label><br>
-                    <input type="password" id="password" name="password" required placeholder="Enter your password"><br>
-                    <input type="submit" value="Log In">
+
+                    <h2>Iniciar sesión</h2>
+
+                    <label for="username">Usuario o email</label><br>
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        required 
+                        placeholder="Ingresá tu usuario o email"><br>
+
+                    <label for="password">Contraseña</label><br>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        required 
+                        placeholder="Ingresá tu contraseña"><br>
+
+                    <input type="submit" value="Iniciar sesión">
+
                 </form>
             </div>
-            <div>
-                <p>ó continue con</p>
+             <div>
+                <p>O continuá con</p>
             </div>
             <div>
-                <div>
-                    <nav>
-                        <a href="">Link a Google</a>
-                        <a href="">Link a Microsoft</a>
-                        <a href="">Link a Github</a>
-                    </nav>
-                </div>
+                <nav>
+                    <a href="#">Continuar con Google</a>
+                    <a href="#">Continuar con Microsoft</a>
+                    <a href="#">Continuar con GitHub</a>
+                </nav>
             </div>
+        </section>
+        <section>
             <div>
-                <p>New user?</p><a href="./sign_up.html">Sign Up</a>
+                <p>¿No tenés una cuenta?</p>
+                <a href="./sign_up.html">Crear cuenta gratis</a>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
 </html>
